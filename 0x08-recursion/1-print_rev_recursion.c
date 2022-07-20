@@ -1,8 +1,8 @@
 #include "main.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _print_rev_recursion -> printing string in reverse using recursion
+ * @s: string s
  */
 void _print_rev_recursion(char *s)
 {
@@ -13,4 +13,3 @@ void _print_rev_recursion(char *s)
 	s--;
 	_putchar(*s);
 }
-
